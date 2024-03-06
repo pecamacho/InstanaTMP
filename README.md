@@ -7,12 +7,15 @@ Download the file pem_ibmcloudvsi_download.pem, the techzone page.
  <img width="425" alt="image" src="https://github.com/pecamacho/InstanaTMP/assets/86245017/2964c7c5-59ee-44e1-8721-8eef6c45df78">
 
 Modify the permissions the file .pem
-
+```
 chmod 600 pem_ibmcloudvsi_download.pem
+```
 
 now configure the ssh connection command:
 
+```
 ssh -i pem_ibmcloudvsi_download.pem itzuser@[Public IP] -p 2223
+```
 
 Example:
 
