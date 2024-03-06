@@ -27,7 +27,7 @@ In this lab we will use an example microservices application called Robot-Shop, 
 
 Use the command sudo to become root.
 ```
-$ sudo -i
+sudo -i
 ```
 you must install Docker CE or Docker EE. Run the following commands to setup the prerequisites, download Docker CE, and install Docker CE on the virtual machine.
 ```
